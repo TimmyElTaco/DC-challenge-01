@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <title>Challenge 01</title>
+</head>
+<body>
+    <article class="container">
+        <h3 class="title">Which topics you are interested in?</h3>
+        <form class="interest-form">
+            <input id="software-dev" name="software-dev" type="checkbox" value="Software Development">
+            <label for="software-dev" class="interest-label">
+                Software Development
+            </label>
+            <input id="ux" name="ux" type="checkbox" value="User Experience">
+            <label for="ux" class="interest-label">
+                User Experience
+            </label>
+            <input id="graph-design" name="graph-design" type="checkbox" value="Graphic Design">
+            <label for="graph-design" class="interest-label">
+                Graphic Design
+            </label>
+            <button type="submit" class="submit-button">Continue</button>
+        </form>
+    </article>
+    <div class="steps">
+        <span>Step 2 of 3</span>
+        <div class="circles">
+            <div class="circle complete"></div>
+            <div class="circle active"></div>
+            <div class="circle"></div>
+        </div>
+    </div>
+</body>
+<script src="src/interest.js" type="module"></script>
+</html>
